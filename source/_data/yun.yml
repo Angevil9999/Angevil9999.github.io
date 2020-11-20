@@ -220,7 +220,7 @@ valine: # 评论系统
   # visitor: false
   # highlight: true
   # recordIP: false
-  # serverURLs:
+  # serverURLs: stg-angevil.avosapps.us
   # Emoji See: https://valine.js.org/emoji.html
   # emojiCDN: //i0.hdslb.com/bfs/emote/
   # emojiMaps:
