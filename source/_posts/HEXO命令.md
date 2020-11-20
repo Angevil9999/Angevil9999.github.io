@@ -7,23 +7,21 @@ categories:
 tags: hexo # 标签
 comments: false #是否开启评论
 ---
-这里是一些相关资料及代码
+# 这里是一些相关资料及代码
 
-### HEXO常用命令
+## [主题修改常用资料站点](https://yun.yunyoujun.cn/guide/config.html#%E5%86%85%E5%AE%B9%E5%8D%A1%E7%89%87)
+# HEXO常用命令
+
+# 新建页面其中 title 为文章的标题
 ```
-$ hexo new "title" #新建页面，其中 title 为文章的标题
-```
-### 主题修改常用资料站点
-```
-https://yun.yunyoujun.cn/guide/config.html#%E5%86%85%E5%AE%B9%E5%8D%A1%E7%89%87
+$ hexo new "title" 
 ```
 
-### 同步上传
+# 同步上传
 ```
 $ hexo clean && hexo g && hexo d
 ```
-
-### 插入图片
+# 插入图片
 ```
-$ <img src="https://图片地址" width="50%">
+<img src="https://图片地址" width="50%">
 ```
