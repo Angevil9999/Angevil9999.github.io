@@ -6,3 +6,4 @@ fi
 git add -A
 git commit -m "$info"
 git push origin hexo
+hexo g && hexo d
