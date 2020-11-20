@@ -1,0 +1,204 @@
+mode: dark # 主题暗黑模式
+
+pages: # 友情链接 true 开启 false关闭
+
+avatar: # 头像设置
+  enable: true
+  url: /images/tou.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: 
+    emoji: 
+    message: 
+
+banner: # 主页中央文字显示
+  enable: true
+  title: 
+    - A
+    - N
+    - G
+    - E
+    - V
+    - I
+    - L
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+colors:
+  primary: "#3994ee"
+  # bg: "#F5F5F5"
+  selection_bg: "#3994ee" # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
+
+social: # 侧边栏插件连接
+  - name: E-Mail
+    link: mailto:jiesir@qq.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/2405545111/profile?topnav=1&wvr=6&is_all=1
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=254556516
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/angevil-19
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/12686995
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: 微信公众号
+    link: 
+    icon: icon-wechat-2-line
+    color: "#1AAD19"
+
+head: # 图标自动切换 安卓|ios
+  js:
+    async: https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons.js
+
+bg_image: # 背景图片设置
+  enable: true
+  url: /images/0001.jpg
+  dark: /images/0002.jpg
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.6
+
+post_card: # 内容卡片背景透明度设置
+  opacity: 0.6
+
+tags:
+  Vue: "#4fc08d"
+  Hexo: "#0E834D"
+  CSS: "#5298d1"
+  Node.js: "#026E00"
+  Git: "#F14E32"
+  React: "#61dafb"
+  Python: "#3776ab"
+  PHP: "#8892BF"
+  VS Code: "#0066B8"
+  JavaScript: "#F4DF4F"
+  TypeScript: "#317AC6"
+  Laravel: "#F4645F"
+
+codeblock: # 开启一键复制按钮
+  copy_btn: true
+  prismjs:
+    light: default # 亮模式下，代码高亮主题
+    dark: tomorrow # 暗模式下，代码高亮主题
+
+reward: # 打赏设置
+  enable: true
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: /images/zfb.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: /images/wx.png
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+albums: # 开启相册功能
+  enable: true
+
+mourn: # 默哀
+  enable: true
+  days:
+    - "4-4"
+
+wordcount: # 字数统计
+  enable: true
+  count: true
+  time: true
+
+cursor: # 鼠标
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+post_meta: # 信息 item_text: 是否显示文字（如：发表于、更新于，若关闭则只显示图标与时间信息），created_at: 是否显示创建时间，updated_at: 是否显示更新时间，categories: 是否显示种类，tags: 是否显示标签
+  item_text: false
+  created_at: true
+  updated_at: false
+  categories: true
+  tags: true
+
+wordcloud: # 云词高亮
+  enable: false
+  height: 350
+
+github_issues: # github 评论关闭
+  enable: false
+  username: angevil
+  repository: angevil9999.github.io
+  filters: 
+
+creative_commons: #版权开关
+  license: by-nc-sa
+  post: false
+  language: deed.zh
+  clipboard: false
+
+menu: # 还没搞明白
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: icon-cloud-line
+    #   count: 你猜
+  custom:
+    title: 相册
+    path: /albums/
+    icon: icon-gallery-line
+
+livere: # 评论 uid: 安装代码中 data-uid 字段
+  enable: false
+  uid: MTAyMC81MjAwOS8yODQ5MA==
+
+engine_search: # 关闭默认搜索引擎
+  enable: false
+
+# search
+# https://github.com/wzpan/hexo-generator-search
+local_search: #开启本地搜索引擎
+  enable: true
+  src: /js/search/local-search.js
+
+footer:
+  powered:
+    enable: false
+  since: 2019
+  live_time:
+    enable: true
+    prefix: 本博客已运行
+    suffix: (●'◡'●)
+    start_time: "2020-11-17T00:00:00"
+
