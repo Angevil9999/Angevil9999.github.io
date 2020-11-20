@@ -28,4 +28,8 @@ hexo d
 ```
 等待一分钟左右的时间之后，网站就应该已经更新了；
 今天终于解决了这个问题，明天继续解决域名加速的问题！
+```
+# 关于CDN加速的文档
+https://www.yunyoujun.cn/note/use-cdn-speed-up-site/
+```
 还有 自动部署的问题！
