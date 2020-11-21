@@ -213,8 +213,8 @@ valine: # 评论系统
   placeholder: 在这里写点什么吧！
   avatar: # gravatar style
   meta:
-    - 昵称
-    - 邮箱
+    - nick
+    - mail
   pageSize: 4 # pagination size
   # lang: zh-CN
   # visitor: false
@@ -233,5 +233,5 @@ valine: # 评论系统
 
 comment:
   enable: true
-  tips:
+  tips: 
   candidates:
