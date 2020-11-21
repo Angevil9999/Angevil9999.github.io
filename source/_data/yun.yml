@@ -208,13 +208,13 @@ footer:
 
 valine: # 评论系统
   enable: true
-  appId: # G1ATxHYi9cOH5k5NMPySmCbE-MdYXbMMI
-  appKey: # kJsUaOpGwyy30sYNAKpkJ7uo
+  appId: 'eG9aw4UqjG2nTaYFrkV39jis-MdYXbMMI'
+  appKey: 'pFbteTrxVXezocMjBRNsl7Si'
   placeholder: 在这里写点什么吧！
   avatar: # gravatar style
   meta:
-    - nick
-    - mail
+    - 昵称
+    - 邮箱
   pageSize: 4 # pagination size
   # lang: zh-CN
   # visitor: false
