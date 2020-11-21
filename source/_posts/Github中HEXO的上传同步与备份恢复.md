@@ -4,7 +4,6 @@ date: 2020-11-20 22:00:42
 categories:
 - hexo学习 # 分类
 tags: hexo Github 备份 同步 # 标签
-comments: false #是否开启评论
 ---
 # Github的备份
 > 1、建立Github仓库的分支

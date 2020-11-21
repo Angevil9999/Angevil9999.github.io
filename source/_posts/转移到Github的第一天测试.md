@@ -4,7 +4,6 @@ date: 2020-11-19 23:21:47
 categories:
 - hexo学习
 tags: hexo
-comments: false #是否开启评论
 ---
 # 测试
 >就是来测试一下，腾讯云的站点在备案，这边还好不用备案！

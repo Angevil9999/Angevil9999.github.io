@@ -4,7 +4,6 @@ date: 2020-11-17 22:42:47
 categories:
 - Markdown学习
 tags: Markdown
-comments: false #是否开启评论
 ---
 这是学习Markdown的笔记，这里会详细记录我学习的点点滴滴，虽然年岁大了，但是还是要有点上进心的嘛！
 
