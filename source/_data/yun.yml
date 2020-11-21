@@ -1,4 +1,7 @@
-mode: dark # 主题暗黑模式
+mode: auto # 主题暗黑模式 dark | auto | time
+
+pjax:
+  enable: true
 
 pages:
   - name: 我的小伙伴们
@@ -19,19 +22,12 @@ avatar: # 头像设置
 
 banner: # 主页中央文字显示
   enable: true
-  title: 
-    - A
-    - N
-    - G
-    - E
-    - V
-    - I
-    - L
+  title: ANG EVIL
   src: /js/ui/banner.js
   border: true
   cloud:
     enable: true
-    color: "white"
+    color: "#8BB8E8"
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
@@ -69,6 +65,12 @@ social: # 侧边栏插件连接
     link: 
     icon: icon-wechat-2-line
     color: "#1AAD19"
+
+scrollreveal: #首页卡片与文章内部图片的滚动浮现效果 targets: 为元素选择器对应的元素添加滚动浮现效果
+  enable: true
+  targets:
+    - .post-card
+    - .post-content img
 
 head: # 图标自动切换 安卓|ios
   js:

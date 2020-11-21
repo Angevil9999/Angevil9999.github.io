@@ -10,11 +10,13 @@ tags: hexo Github 备份 同步 # 标签
  ```
  git checkout -b hexo
  ```
-
+<!-- more -->
 > 2、安装`hexo-deployer-git`插件
  ```
  npm install hexo-deployer-git
  ```
+
+
 
 > 3、与远程 Git 仓库建立连接（一次即可）
 

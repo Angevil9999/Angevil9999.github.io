@@ -11,7 +11,7 @@ comments: false #是否开启评论
 
 ## [主题修改常用资料站点](https://yun.yunyoujun.cn/guide/config.html#%E5%86%85%E5%AE%B9%E5%8D%A1%E7%89%87)
 # HEXO常用命令
-
+<!-- more -->
 # 新建页面其中 title 为文章的标题
 ```
 $ hexo new "title" 
