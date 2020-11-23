@@ -159,9 +159,9 @@ github_issues: # github 评论关闭
 
 creative_commons: #版权开关
   license: by-nc-sa
-  post: false
+  post: true
   language: deed.zh
-  clipboard: false
+  clipboard: true
 
 menu: # 还没搞明白
   home:
