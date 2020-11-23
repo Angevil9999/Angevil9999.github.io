@@ -22,7 +22,6 @@ Mac快捷键
  <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>D</kbd>
  
 3. 在新页面中选择`EDIT CONFIGURATION`并输入第一步中记录下来的密钥！  
-## 第三步
  这时就已经设置好了上传同步的设置
 
 ## 第三步
