@@ -15,23 +15,23 @@ tags: Github VScode # 标签
 ## 第二步
 1. 在VScode中搜索插件`settings sync`并安装；  
 2. 在插件的页面  
-```
-# windows下按
+
+windows快捷键
  <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>D</kbd>  
-# Mac快捷键
+Mac快捷键
  <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>D</kbd>
- ```
-在新页面中选择`EDIT CONFIGURATION`并输入第一步中记录下来的密钥！  
+ 
+3. 在新页面中选择`EDIT CONFIGURATION`并输入第一步中记录下来的密钥！  
 ## 第三步
  这时就已经设置好了上传同步的设置
 
 ## 第三步
 
 1. 在新的电脑上重复上面的步骤，在第二部同步快捷键改为下面的
-```
-# windows下按
- <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>  
-# Mac快捷键
+
+windows快捷键
+<kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>  
+Mac快捷键
  <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>U</kbd>
- ```
-2. 此时新电脑上将开始下载之前的配置并应用。
+ 
+1. 此时新电脑上将开始下载之前的配置并应用。
