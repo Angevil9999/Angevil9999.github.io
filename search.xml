@@ -4,9 +4,59 @@
   
     
     <entry>
+      <title>解决办法：! [rejected]        master -&gt; master  &#39;https://github.com/xxxx.git</title>
+      <link href="2020/11/27/20201127%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9Aerror-failed-to-push-some-refs-to-https-github-com-xxxx-git/"/>
+      <url>2020/11/27/20201127%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9Aerror-failed-to-push-some-refs-to-https-github-com-xxxx-git/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1、问题"><a href="#1、问题" class="headerlink" title="1、问题"></a>1、问题</h1><blockquote><h3 id="在github远程创建仓库后-利用gitbash进行提交本地文件的时候出现如下错误："><a href="#在github远程创建仓库后-利用gitbash进行提交本地文件的时候出现如下错误：" class="headerlink" title="在github远程创建仓库后, 利用gitbash进行提交本地文件的时候出现如下错误："></a>在github远程创建仓库后, 利用gitbash进行提交本地文件的时候出现如下错误：</h3></blockquote><pre class="language-none"><code class="language-none">$ git push -u origin masterTo git@github.com:***.git! [rejected]        master -&gt; master (non-fast-forward)error: failed to push some refs to &#39;git@github.com:***.githint: Updates were rejected because the tip of your current branch is behinhint: its remote counterpart. Integrate the remote changes (e.g.hint: &#39;git pull ...&#39;) before pushing again.hint: See the &#39;Note about fast-forwards&#39; in &#39;git push --help&#39; for details.</code></pre><h1 id="2、分析"><a href="#2、分析" class="headerlink" title="2、分析"></a>2、分析</h1><blockquote><h3 id="git仓库中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。"><a href="#git仓库中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。" class="headerlink" title="git仓库中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。"></a>git仓库中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。</h3></blockquote><h1 id="3、解决方法"><a href="#3、解决方法" class="headerlink" title="3、解决方法"></a>3、解决方法</h1><blockquote><h3 id="方法1：强行将代码推到github仓库里面去"><a href="#方法1：强行将代码推到github仓库里面去" class="headerlink" title="方法1：强行将代码推到github仓库里面去"></a>方法1：强行将代码推到github仓库里面去</h3> <pre class="language-none"><code class="language-none">git push -f origin master</code></pre><p>直接强推，即利用强覆盖方式用你本地的代码替代github仓库内的内容。<br>如果是分支，将命令中<code>master</code>改为分支名称即可。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题解决方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>感谢</title>
+      <link href="2020/11/27/20201127%E6%84%9F%E8%B0%A2/"/>
+      <url>2020/11/27/20201127%E6%84%9F%E8%B0%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h1><blockquote><p>本站所有建站知识点均来源于 <font size=5 color=#108fff >云游君</font> 的指点， <font size=5 color=red >在此表示感谢!!!</font><br> <font size=5 color=#108fff >云游君</font> 的QQ群号为： <font size=5 color=#108fff > 389401003 </font>  ，博客地址在我的<font size=5 color=#108fff > 友情链接 </font> 里有。</p><a id="more"></a></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 心情 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 感谢 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>开启Github云端保存VScode各项配置的方法</title>
-      <link href="2020/11/23/%E5%BC%80%E5%90%AFGithub%E4%BA%91%E7%AB%AF%E4%BF%9D%E5%AD%98VScode%E5%90%84%E9%A1%B9%E9%85%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-      <url>2020/11/23/%E5%BC%80%E5%90%AFGithub%E4%BA%91%E7%AB%AF%E4%BF%9D%E5%AD%98VScode%E5%90%84%E9%A1%B9%E9%85%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      <link href="2020/11/23/20201123%E5%BC%80%E5%90%AFGithub%E4%BA%91%E7%AB%AF%E4%BF%9D%E5%AD%98VScode%E5%90%84%E9%A1%B9%E9%85%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+      <url>2020/11/23/20201123%E5%BC%80%E5%90%AFGithub%E4%BA%91%E7%AB%AF%E4%BF%9D%E5%AD%98VScode%E5%90%84%E9%A1%B9%E9%85%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
       
         <content type="html"><![CDATA[<h1 id="开启Github云端保存VScode各项配置的方法"><a href="#开启Github云端保存VScode各项配置的方法" class="headerlink" title="开启Github云端保存VScode各项配置的方法"></a>开启<strong>Github</strong>云端保存VScode各项配置的方法</h1><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><blockquote><p>1.首先在<code>Github.com</code>中登录需要保存配置文件的账号；<br>2. 点击头像，选择<code>settings</code>进入设置；<br>3. 在新页面中右边栏中选择<code>Developer settings</code>；<br>4. 接下来进入<code>Personal access tokens</code>选项中；<br>5. 记录<code>Personal access tokens</code>中的密钥，此处的密钥需要保存好，在新的机器中下载配置文件时需要用到。</p></blockquote><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><blockquote><ol><li>在VScode中搜索插件<code>settings sync</code>并安装；   </li><li>在插件的页面  </li></ol></blockquote><p>windows快捷键<br> <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>D</kbd><br>Mac快捷键<br> <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>D</kbd></p><blockquote><ol start="3"><li>在新页面中选择<code>EDIT CONFIGURATION</code>并输入第一步中记录下来的密钥！<br>这时就已经设置好了上传同步的设置</li></ol></blockquote><h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><blockquote><ol><li>在新的电脑上重复上面的步骤，在第二部同步快捷键改为下面的</li></ol></blockquote><p>windows快捷键<br><kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd><br>Mac快捷键<br> <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>U</kbd></p><blockquote><ol start="2"><li>此时新电脑上将开始下载之前的配置并应用。</li></ol></blockquote>]]></content>
       
@@ -30,10 +80,10 @@
     
     <entry>
       <title>Github中HEXO的上传同步与备份恢复</title>
-      <link href="2020/11/20/Github%E4%B8%ADHEXO%E7%9A%84%E4%B8%8A%E4%BC%A0%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/"/>
-      <url>2020/11/20/Github%E4%B8%ADHEXO%E7%9A%84%E4%B8%8A%E4%BC%A0%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/</url>
+      <link href="2020/11/20/20201120Github%E4%B8%ADHEXO%E7%9A%84%E4%B8%8A%E4%BC%A0%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/"/>
+      <url>2020/11/20/20201120Github%E4%B8%ADHEXO%E7%9A%84%E4%B8%8A%E4%BC%A0%E5%90%8C%E6%AD%A5%E4%B8%8E%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/</url>
       
-        <content type="html"><![CDATA[<h1 id="Github的备份"><a href="#Github的备份" class="headerlink" title="Github的备份"></a>Github的备份</h1><blockquote><p>1、建立Github仓库的分支<br> <pre class="language-none"><code class="language-none">git checkout -b hexo</code></pre></p></blockquote><a id="more"></a><blockquote><p>2、安装<code>hexo-deployer-git</code>插件<br> <pre class="language-none"><code class="language-none">npm install hexo-deployer-git</code></pre></p></blockquote><blockquote><p>3、与远程 Git 仓库建立连接（一次即可）</p></blockquote><pre class="language-none"><code class="language-none">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;你的用户名&#x2F;你的名字.github.io</code></pre><blockquote><p>4、制作脚本<br>首先在我们本地的HEXO根目录下建立一个 <code>update.sh</code>文件<br>内容为</p></blockquote><pre class="language-none"><code class="language-none">info&#x3D;$1if [&quot;$info&quot; &#x3D; &quot;&quot;];then info&#x3D;&quot;:pencil: update content&quot;figit add -Agit commit -m &quot;$info&quot; # 这里的info为本次更新的内容标签，可以不填写。git push origin hexohexo g &amp;&amp; hexo d</code></pre><blockquote><p>保存后，执行</p></blockquote><pre class="language-none"><code class="language-none">sh update.sh</code></pre><blockquote><p>等待一分钟左右的时间博客即可更新完成</p></blockquote><blockquote><h1 id="写在最后，"><a href="#写在最后，" class="headerlink" title="写在最后，"></a>写在最后，</h1><p>本站所有教学知识点，均来源于 <font size=5 color=#108fff >云游君</font> 的指点， <font size=5 color=red >在此表示感谢!!!</font><br>他的群号为： <font size=5 color=#108fff > 389401003 </font>  ，博客地址在我的友情链接里有。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1 id="Github的备份"><a href="#Github的备份" class="headerlink" title="Github的备份"></a>Github的备份</h1><h2 id="1、建立Github仓库的分支"><a href="#1、建立Github仓库的分支" class="headerlink" title="1、建立Github仓库的分支"></a>1、建立Github仓库的分支</h2><blockquote><pre class="language-none"><code class="language-none">git checkout -b hexo</code></pre></blockquote><a id="more"></a><h2 id="2、安装hexo-deployer-git插件"><a href="#2、安装hexo-deployer-git插件" class="headerlink" title="2、安装hexo-deployer-git插件"></a>2、安装<code>hexo-deployer-git</code>插件</h2><blockquote><pre class="language-none"><code class="language-none">npm install hexo-deployer-git</code></pre></blockquote><h2 id="3、与远程-Git-仓库建立连接（一次即可）"><a href="#3、与远程-Git-仓库建立连接（一次即可）" class="headerlink" title="3、与远程 Git 仓库建立连接（一次即可）"></a>3、与远程 Git 仓库建立连接（一次即可）</h2><blockquote><pre class="language-none"><code class="language-none">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;你的用户名&#x2F;你的名字.github.io</code></pre></blockquote><h2 id="4、制作脚本"><a href="#4、制作脚本" class="headerlink" title="4、制作脚本"></a>4、制作脚本</h2><blockquote><p>首先在我们本地的HEXO根目录下建立一个 <code>update.sh</code>文件<br>内容为</p><pre class="language-none"><code class="language-none">info&#x3D;$1if [&quot;$info&quot; &#x3D; &quot;&quot;];then info&#x3D;&quot;:pencil: update content&quot;figit add -Agit commit -m &quot;$info&quot; # 这里的info为本次更新的内容标签，可以不填写。git push origin hexohexo g &amp;&amp; hexo d</code></pre><p>保存后，执行</p><pre class="language-none"><code class="language-none">sh update.sh</code></pre><p>等待一分钟左右的时间博客即可更新完成</p></blockquote>]]></content>
       
       
       <categories>
@@ -55,8 +105,8 @@
     
     <entry>
       <title>转移到Github的第一天测试</title>
-      <link href="2020/11/19/%E8%BD%AC%E7%A7%BB%E5%88%B0Github%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%B5%8B%E8%AF%95/"/>
-      <url>2020/11/19/%E8%BD%AC%E7%A7%BB%E5%88%B0Github%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%B5%8B%E8%AF%95/</url>
+      <link href="2020/11/19/20201119%E8%BD%AC%E7%A7%BB%E5%88%B0Github%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%B5%8B%E8%AF%95/"/>
+      <url>2020/11/19/20201119%E8%BD%AC%E7%A7%BB%E5%88%B0Github%E7%9A%84%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%B5%8B%E8%AF%95/</url>
       
         <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><blockquote><p>就是来测试一下，腾讯云的站点在备案，这边还好不用备案！</p></blockquote><h2 id="终于明白为什么更新后绑定的域名会消失了！"><a href="#终于明白为什么更新后绑定的域名会消失了！" class="headerlink" title="终于明白为什么更新后绑定的域名会消失了！"></a>终于明白为什么更新后绑定的域名会消失了！</h2><blockquote><p>需要在source目录下简历一个CNAME的文档无后缀，将绑定的域名写进去且不带前缀“www”之类。</p></blockquote><h1 id="测试更新！"><a href="#测试更新！" class="headerlink" title="测试更新！"></a>测试更新！</h1><blockquote><p>第三次测试!  </p></blockquote><a id="more"></a><blockquote><p>这是第四次测试！测试更换电脑后的同步情况！<br>这是第五次更新测试！<br>第六次测试更新！<br>经过六次的更新推送测试，终于明白了GITHUB更新的方法了，不要笑，谁让我是0基础呢！</p></blockquote><h1 id="以下是更新方法"><a href="#以下是更新方法" class="headerlink" title="以下是更新方法"></a>以下是更新方法</h1><pre class="language-none"><code class="language-none"># 添加到缓存区git add -Agit commit -m &quot;更新的内容&quot;# 推送至远程仓库git push origin hexohexo ghexo d</code></pre><p>等待一分钟左右的时间之后，网站就应该已经更新了；<br>今天终于解决了这个问题，明天继续解决域名加速的问题！<br><a href="https://www.yunyoujun.cn/note/use-cdn-speed-up-site/">关于CDN加速的文档</a><br>还有 自动部署的问题！</p>]]></content>
       
@@ -80,8 +130,8 @@
     
     <entry>
       <title>建站的心情</title>
-      <link href="2020/11/19/%E5%BB%BA%E7%AB%99%E7%9A%84%E5%BF%83%E6%83%85/"/>
-      <url>2020/11/19/%E5%BB%BA%E7%AB%99%E7%9A%84%E5%BF%83%E6%83%85/</url>
+      <link href="2020/11/19/20201119%E5%BB%BA%E7%AB%99%E7%9A%84%E5%BF%83%E6%83%85/"/>
+      <url>2020/11/19/20201119%E5%BB%BA%E7%AB%99%E7%9A%84%E5%BF%83%E6%83%85/</url>
       
         <content type="html"><![CDATA[<p>经过3天的不懈奋斗，日夜兼程，我终于搞定了这个站点的大部分内容，大概完成率在80%，开心！开心！</p><a id="more"></a>]]></content>
       
@@ -130,8 +180,8 @@
     
     <entry>
       <title>HEXO常用命令合集</title>
-      <link href="2020/11/17/HEXO%E5%91%BD%E4%BB%A4/"/>
-      <url>2020/11/17/HEXO%E5%91%BD%E4%BB%A4/</url>
+      <link href="2020/11/17/20201117HEXO%E5%91%BD%E4%BB%A4/"/>
+      <url>2020/11/17/20201117HEXO%E5%91%BD%E4%BB%A4/</url>
       
         <content type="html"><![CDATA[<h1 id="这里是一些相关资料及代码"><a href="#这里是一些相关资料及代码" class="headerlink" title="这里是一些相关资料及代码"></a>这里是一些相关资料及代码</h1><h2 id="主题修改常用资料站点"><a href="#主题修改常用资料站点" class="headerlink" title="主题修改常用资料站点"></a><a href="https://yun.yunyoujun.cn/guide/config.html#%E5%86%85%E5%AE%B9%E5%8D%A1%E7%89%87">主题修改常用资料站点</a></h2><h1 id="HEXO常用命令"><a href="#HEXO常用命令" class="headerlink" title="HEXO常用命令"></a>HEXO常用命令</h1><a id="more"></a><h1 id="新建页面其中-title-为文章的标题"><a href="#新建页面其中-title-为文章的标题" class="headerlink" title="新建页面其中 title 为文章的标题"></a>新建页面其中 title 为文章的标题</h1><pre class="language-none"><code class="language-none">$ hexo new &quot;title&quot; </code></pre><h1 id="同步上传"><a href="#同步上传" class="headerlink" title="同步上传"></a>同步上传</h1><pre class="language-none"><code class="language-none">$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre><h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><pre class="language-none"><code class="language-none">&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;图片地址&quot; width&#x3D;&quot;50%&quot;&gt;</code></pre>]]></content>
       
@@ -155,8 +205,8 @@
     
     <entry>
       <title>学习笔记</title>
-      <link href="2020/11/17/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-      <url>2020/11/17/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <link href="2020/11/17/20201117Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>2020/11/17/20201117Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
       
         <content type="html"><![CDATA[<p>这是学习Markdown的笔记，这里会详细记录我学习的点点滴滴，虽然年岁大了，但是还是要有点上进心的嘛！</p><h2 id="学习Markdown的一些常用地址"><a href="#学习Markdown的一些常用地址" class="headerlink" title="学习Markdown的一些常用地址"></a>学习Markdown的一些常用地址</h2><h3 id="地址"><a href="#地址" class="headerlink" title="地址"></a>地址</h3><a id="more"></a><pre class="language-none"><code class="language-none">https:&#x2F;&#x2F;segmentfault.com&#x2F;markdown</code></pre><pre class="language-none"><code class="language-none">https:&#x2F;&#x2F;www.runoob.com&#x2F;markdown&#x2F;md-tutorial.html</code></pre><h3 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a>Markdown 语法</h3><h4 id="（1）标题"><a href="#（1）标题" class="headerlink" title="（1）标题"></a>（1）标题</h4><pre class="language-none"><code class="language-none"># 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题</code></pre><p>Typora 快捷键：</p><p>Ctrl+1：一级标题<br>Ctrl+2：二级标题<br>Ctrl+3：三级标题<br>Ctrl+4：四级标题<br>Ctrl+5：五级标题<br>Ctrl+6 ：六级标题<br>Ctrl+0：段落</p><h3 id="（2）粗体、斜体、删除线和下划线"><a href="#（2）粗体、斜体、删除线和下划线" class="headerlink" title="（2）粗体、斜体、删除线和下划线"></a>（2）粗体、斜体、删除线和下划线</h3><h4 id="Markdown-语法："><a href="#Markdown-语法：" class="headerlink" title="Markdown 语法："></a>Markdown 语法：</h4><pre class="language-none"><code class="language-none">*斜体***粗体*****加粗斜体***~~删除线~~</code></pre><p>Typora 快捷键：<br>Ctrl+I：斜体<br>Ctrl+B：粗体<br>Ctrl+U：下划线<br>Alt+Shift+5：删除线</p><h3 id="（3）引用块"><a href="#（3）引用块" class="headerlink" title="（3）引用块"></a>（3）引用块</h3><h4 id="Markdown-语法：-1"><a href="#Markdown-语法：-1" class="headerlink" title="Markdown 语法："></a>Markdown 语法：</h4><pre class="language-none"><code class="language-none">&gt; 文字引用</code></pre><p>Typora 快捷键： Ctrl+Shift+Q</p>]]></content>
       
