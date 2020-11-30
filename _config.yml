@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://angevil.vip/
+url: https://angevil.top/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -105,5 +105,6 @@ theme: yun
 deploy:
   type: git
   repo: https://github.com/Angevil9999/angevil9999.github.io.git
+    coding: git@e.coding.net:angevil/angevil/
   branch: master
   message: Update Hexo Static Content
