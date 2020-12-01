@@ -105,6 +105,5 @@ theme: yun
 deploy:
   type: git
   repo: https://github.com/Angevil9999/angevil9999.github.io.git
-    coding: git@e.coding.net:angevil/angevil/
   branch: master
   message: Update Hexo Static Content
