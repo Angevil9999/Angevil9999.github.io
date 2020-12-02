@@ -15,11 +15,7 @@ tags: hexo Github 备份 同步 # 标签
 > ```
 > npm install hexo-deployer-git
 > ```
-
-
-
 ##  3、与远程 Git 仓库建立连接（一次即可）
-
 > ```
 > git remote add origin https://github.com/你的用户名/你的名字.github.io
 > ```
@@ -41,4 +37,49 @@ tags: hexo Github 备份 同步 # 标签
 > sh update.sh
 > ```
 > 等待一分钟左右的时间博客即可更新完成
+
+# Github的恢复
+## 第一步
+### 远程克隆位于Github的仓库（之前我们备份到分支的仓库）
+> 运行命令
+>
+> ```
+> git clone -b hexo https://github.com/XXX/XXX.github.io.git
+> ```
+>
+> 克隆你仓库中的分支，分支名为（hexo）
+>
+> 输入`PWD`查看所在目录
+## 第二步
+### 在新电脑上安装依赖
+>1、安装`nodejs`
+>```
+>sudo apt-get install nodejs
+>sudo apt-get install npm
+>```
+>
+>2、安装`git`
+>
+>```
+>sudo apt install git-all
+>```
+>
+>3、安装`hexo`
+>
+>```
+>npm install hexo-cli -g
+>```
+>
+>如果安装出错请执行
+>
+>```
+>sudo npm install hexo-cli -g
+>```
+## 第三步
+>### 运行测试
+>完成以上步骤后输入
+>```
+>hexo s
+>```
+>测试网站是否可以顺利运行
 
