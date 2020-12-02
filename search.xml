@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>这是一个测试</title>
+      <link href="2020/12/02/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/"/>
+      <url>2020/12/02/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>这是一个推送测试！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决办法：! [rejected]        master -&gt; master  &#39;https://github.com/xxxx.git</title>
       <link href="2020/11/27/20201127%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9Aerror-failed-to-push-some-refs-to-https-github-com-xxxx-git/"/>
       <url>2020/11/27/20201127%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9Aerror-failed-to-push-some-refs-to-https-github-com-xxxx-git/</url>
