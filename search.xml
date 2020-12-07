@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>群晖学习笔记</title>
+      <link href="2020/12/07/20201207%E7%BE%A4%E6%99%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>2020/12/07/20201207%E7%BE%A4%E6%99%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote><p>群晖Synology，明天主机就到位了，这里将记录群晖使用中的一些问题及解决方案。</p></blockquote><h2 id="1、群晖的开箱及安装"><a href="#1、群晖的开箱及安装" class="headerlink" title="1、群晖的开箱及安装"></a>1、群晖的开箱及安装</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 群晖 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 群晖,学习,Synology </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决办法：! [rejected]        master -&gt; master  &#39;https://github.com/xxxx.git</title>
       <link href="2020/11/27/20201127%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9Aerror-failed-to-push-some-refs-to-https-github-com-xxxx-git/"/>
       <url>2020/11/27/20201127%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9Aerror-failed-to-push-some-refs-to-https-github-com-xxxx-git/</url>
